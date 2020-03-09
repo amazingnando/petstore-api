@@ -37,4 +37,4 @@ C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk-10\bin"
 
 1. Go to jetbrains.com/idea/ and click "Download" button
 2. Choose the Windows tab and download "Community” version
-2. Open .exe file and install without changes in installation wizard
+2. Open .exe file and install without changes in installation wizard 
