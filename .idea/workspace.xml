@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/petstore-api" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yf2lPjkbXcOTj7XlTI2uwbTYpE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="" />
+      <created>1583319478797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583319478797</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="7" key="#Project_Structure" timestamp="1583319625169">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="7" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1583319625169" />
+    <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583319619195">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1583784441540">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1583784441540" />
+  </component>
+</project>
