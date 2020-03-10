@@ -16,7 +16,7 @@ If you installed Node in a different location, you’ll need to set the PATH acc
 
 **Running the JDK Installer**
 
-You must have administrator privilage to install the JDK on Microsoft Windows.
+You must have administrator privillage to install the JDK on Microsoft Windows.
 
 1. Start the JDK 10 installer by double-clicking the installer's icon or file name in the download location.
 2. Follow the instructions provided by the Installation wizard.
