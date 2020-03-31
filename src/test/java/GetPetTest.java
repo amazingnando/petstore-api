@@ -33,18 +33,84 @@ public class GetPetTest {
                 .statusCode(200);
     }
 
-   /* @Test
+    @Test
     public void createPet() {
-        String pet = "{ \\\"id\\\": 13567, \\\"category\\\": { \\\"id\\\": 0, \\\"name\\\": \\\"string\\\" }, \\\"name\\\": \\\"doggie4\\\", \\\"photoUrls\\\": [ \\\"string\\\" ], \\\"tags\\\": [ { \\\"id\\\": 0, \\\"name\\\": \\\"string\\\" } ], \\\"status\\\": \\\"available\\\"}";
+        String ContentType = "application/json";
+        String body = "{\n" +
+                "  \"id\": 14678,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 0,\n" +
+                "    \"name\": \"string\"\n" +
+                "  },\n" +
+                "  \"name\": \"SpikeJr\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 0,\n" +
+                "      \"name\": \"string\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"available\"\n" +
+                "}";
+        given()
+                .log().all()
+                .baseUri("https://petstore.swagger.io")
+                .contentType(ContentType)
+                .body(body)
+                .when ()
+                .post("/v2/pet")
+                .then()
+                .log().all()
+                .statusCode(200);
+    }
+
+    @Test
+    public void updatePet() {
+        String ContentType = "application/json";
+        String body = "{\n" +
+                "  \"id\": 14678,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 0,\n" +
+                "    \"name\": \"string\"\n" +
+                "  },\n" +
+                "  \"name\": \"SpikeJr\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 0,\n" +
+                "      \"name\": \"string\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"sold\"\n" +
+                "}";
+        given()
+                .log().all()
+                .baseUri("https://petstore.swagger.io")
+                .contentType(ContentType)
+                .body(body)
+                .when ()
+                .put("/v2/pet")
+                .then()
+                .log().all()
+                .statusCode(200);
+    }
+
+    @Test
+    public void deletePet() {
+        int id = 14678;
         given()
                 .log().all()
                 .baseUri("https://petstore.swagger.io")
                 .when ()
-                .post("/v2/pet", "Content-Type", "application/json", pet)
+                .delete("/v2/pet/{id}", id)
                 .then()
                 .log().all()
                 .statusCode(200);
-    }*/
+    }
 }
 
 
@@ -52,13 +118,3 @@ public class GetPetTest {
 
 
 
-
-
-
-
-
-
-  /*  @Test
-    public void createPet() {
-
-    }*/
