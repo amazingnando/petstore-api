@@ -114,12 +114,11 @@ public class GetPetTest {
 
     @Test
     public void updatePetFormData() {
-        String ContentType = "application/x-www-form-urlencoded";
         int petId = 123;
         given()
                 .log().all()
                 .baseUri("https://petstore.swagger.io")
-                .contentType(ContentType)
+                .contentType("application/x-www-form-urlencoded")
                 .param("name", "johny")
                 .param("status", "available")
                 .when ()
