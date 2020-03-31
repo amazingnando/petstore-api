@@ -129,9 +129,3 @@ public class GetPetTest {
                 .statusCode(200);
     }
 }
-
-
-
-
-
-
