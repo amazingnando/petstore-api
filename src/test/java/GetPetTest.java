@@ -111,6 +111,23 @@ public class GetPetTest {
                 .log().all()
                 .statusCode(200);
     }
+
+    @Test
+    public void updatePetFormData() {
+        String ContentType = "application/x-www-form-urlencoded";
+        int petId = 123;
+        given()
+                .log().all()
+                .baseUri("https://petstore.swagger.io")
+                .contentType(ContentType)
+                .param("name", "johny")
+                .param("status", "available")
+                .when ()
+                .post("/v2/pet/{petId}", petId)
+                .then()
+                .log().all()
+                .statusCode(200);
+    }
 }
 
 
