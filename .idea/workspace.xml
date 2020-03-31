@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetPetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetPetTest.getPetByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
+      <option name="METHOD_NAME" value="getPetByStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GetPetTest.createPet" />
+        <item itemvalue="JUnit.GetPetTest.getPetByStatus" />
         <item itemvalue="JUnit.GetPetTest.getPetById" />
         <item itemvalue="Application.GetPetTest" />
       </list>
@@ -97,12 +106,20 @@
       <option name="project" value="LOCAL" />
       <updated>1583786887350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="COVID-19 first rest test">
+      <created>1583840559035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583840559036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changing directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing directory" />
+    <MESSAGE value="COVID-19 first rest test" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 first rest test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
@@ -117,33 +134,37 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1583788909352">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1583840557387">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1583788909352" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1583840380716">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1583840557387" />
+    <state width="1237" height="48" key="GridCell.Tab.0.bottom" timestamp="1585608069366">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583840380716" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1583840380716">
+    <state width="1237" height="48" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585608069366" />
+    <state width="1237" height="48" key="GridCell.Tab.0.center" timestamp="1585608069366">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583840380716" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1583840380715">
+    <state width="1237" height="48" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585608069366" />
+    <state width="1237" height="48" key="GridCell.Tab.0.left" timestamp="1585608069366">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583840380715" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1583840380716">
+    <state width="1237" height="48" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585608069366" />
+    <state width="1237" height="48" key="GridCell.Tab.0.right" timestamp="1585608069366">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583840380716" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1583788914137">
+    <state width="1237" height="48" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585608069366" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1583840565387">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1583788914137" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1583828731141">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1583840565387" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585649633637">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1583828731141" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585649633637" />
+    <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="91" y="50" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1585498626764" />
   </component>
 </project>
