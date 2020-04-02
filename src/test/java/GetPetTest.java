@@ -133,7 +133,7 @@ public class GetPetTest {
 
     @Test
     public void updatePetFormData() {
-        int petId = 14678;
+        String petId = "14678";
         given()
                 .log()
                 .all()
@@ -145,7 +145,7 @@ public class GetPetTest {
                 .then()
                 .log()
                 .all()
-                .body("message", is("14678"))
+                .body("message", is(petId))
                 .statusCode(200);
     }
 }

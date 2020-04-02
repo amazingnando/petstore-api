@@ -4,6 +4,7 @@
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585669419642</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="COVID-19 code refactoring, add body verification">
+      <created>1585819290841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585819290841</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,7 +171,8 @@
     <MESSAGE value="COVID-19 get pet by status test" />
     <MESSAGE value="COVID-19 create, update, delete pet" />
     <MESSAGE value="COVID-19 update form data" />
-    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 update form data" />
+    <MESSAGE value="COVID-19 code refactoring, add body verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 code refactoring, add body verification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
@@ -178,30 +187,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585669418146">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585819289816">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585669418146" />
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1585819148858">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585819289816" />
+    <state width="1237" height="255" key="GridCell.Tab.0.bottom" timestamp="1585822338388">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
-    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1585819148858">
+    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585822338388" />
+    <state width="1237" height="255" key="GridCell.Tab.0.center" timestamp="1585822338387">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
-    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1585819148857">
+    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
+    <state width="1237" height="255" key="GridCell.Tab.0.left" timestamp="1585822338387">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585819148857" />
-    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1585819148858">
+    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
+    <state width="1237" height="255" key="GridCell.Tab.0.right" timestamp="1585822338387">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585669423915">
+    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585819293617">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585669423915" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585819293617" />
     <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585811023629">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
