@@ -4,7 +4,6 @@
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +61,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.getPetByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPetTest.getPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="getPetByStatus" />
+      <option name="METHOD_NAME" value="getPetById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GetPetTest.updatePetFormData" />
+        <item itemvalue="JUnit.GetPetTest.createPet" />
         <item itemvalue="JUnit.GetPetTest.deletePet" />
         <item itemvalue="JUnit.GetPetTest.updatePet" />
-        <item itemvalue="JUnit.GetPetTest.createPet" />
-        <item itemvalue="JUnit.GetPetTest.getPetByStatus" />
+        <item itemvalue="JUnit.GetPetTest.getPetById" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585663938799</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="COVID-19 update form data">
+      <created>1585669419642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585669419642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,37 +178,41 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585663937977">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585669418146">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585663937977" />
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1585669073599">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585669418146" />
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1585819148858">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585669073599" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1585669073599">
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
+    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1585819148858">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585669073599" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1585669073598">
+    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
+    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1585819148857">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585669073598" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1585669073599">
+    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585819148857" />
+    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1585819148858">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585669073599" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585663941428">
+    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585819148858" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585669423915">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585663941428" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585649633637">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585669423915" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585811023629">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585649633637" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585811023629" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="91" y="50" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1585498626764" />
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585817270612">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1585817270612" />
   </component>
 </project>
