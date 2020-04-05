@@ -4,8 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.anyOf;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 public class GetPetTest {
 
@@ -19,7 +18,36 @@ public class GetPetTest {
 
     @Test
     public void getPetById() {
-        int id = 1234;
+        String body = "{\n" +
+                "  \"id\": 14678,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 0,\n" +
+                "    \"name\": \"string\"\n" +
+                "  },\n" +
+                "  \"name\": \"SpikeJr\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 0,\n" +
+                "      \"name\": \"string\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"available\"\n" +
+                "}";
+        given()
+                .log()
+                .all()
+                .body(body)
+                .when ()
+                .post("/pet")
+                .then()
+                .log()
+                .all()
+                .body("id", anyOf(is(body), is(14678)))
+                .statusCode(200);
+        int id = 14678;
         given()
                 .log()
                 .all()
@@ -46,7 +74,7 @@ public class GetPetTest {
                 .then()
                 .log()
                 .all()
-                .body("status[0]", is(status))
+                .body("status", everyItem(equalTo(status)))
                 .statusCode(200);
     }
 
@@ -118,6 +146,35 @@ public class GetPetTest {
 
     @Test
     public void deletePet() {
+        String body = "{\n" +
+                "  \"id\": 14678,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 0,\n" +
+                "    \"name\": \"string\"\n" +
+                "  },\n" +
+                "  \"name\": \"SpikeJr\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 0,\n" +
+                "      \"name\": \"string\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"available\"\n" +
+                "}";
+        given()
+                .log()
+                .all()
+                .body(body)
+                .when ()
+                .post("/pet")
+                .then()
+                .log()
+                .all()
+                .body("id", anyOf(is(body), is(14678)))
+                .statusCode(200);
         int id = 14678;
         given()
                 .log()
@@ -127,12 +184,41 @@ public class GetPetTest {
                 .then()
                 .log()
                 .all()
-                .body("message", is("14678"))
+                .body("message", is(String.valueOf(id)))
                 .statusCode(200);
     }
 
     @Test
     public void updatePetFormData() {
+        String body = "{\n" +
+                "  \"id\": 14678,\n" +
+                "  \"category\": {\n" +
+                "    \"id\": 0,\n" +
+                "    \"name\": \"string\"\n" +
+                "  },\n" +
+                "  \"name\": \"SpikeJr\",\n" +
+                "  \"photoUrls\": [\n" +
+                "    \"string\"\n" +
+                "  ],\n" +
+                "  \"tags\": [\n" +
+                "    {\n" +
+                "      \"id\": 0,\n" +
+                "      \"name\": \"string\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"status\": \"available\"\n" +
+                "}";
+        given()
+                .log()
+                .all()
+                .body(body)
+                .when ()
+                .post("/pet")
+                .then()
+                .log()
+                .all()
+                .body("id", anyOf(is(body), is(14678)))
+                .statusCode(200);
         String petId = "14678";
         given()
                 .log()

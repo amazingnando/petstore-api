@@ -41,7 +41,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.GetPetTest.updatePetFormData">
+  <component name="RunManager" selected="JUnit.GetPetTest.getPetByStatus">
     <configuration name="GetPetTest.createPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,11 +62,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.getPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPetTest.getPetByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="getPetById" />
+      <option name="METHOD_NAME" value="getPetByStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetPetTest.updatePetFormData" />
+        <item itemvalue="JUnit.GetPetTest.getPetByStatus" />
         <item itemvalue="JUnit.GetPetTest.createPet" />
-        <item itemvalue="JUnit.GetPetTest.deletePet" />
         <item itemvalue="JUnit.GetPetTest.updatePet" />
-        <item itemvalue="JUnit.GetPetTest.getPetById" />
+        <item itemvalue="JUnit.GetPetTest.deletePet" />
+        <item itemvalue="JUnit.GetPetTest.updatePetFormData" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585819290841</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="COVID-19 code refactoring, add body verification">
+      <created>1585822418559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585822418559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,34 +194,34 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585819289816">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585822417634">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585819289816" />
-    <state width="1237" height="255" key="GridCell.Tab.0.bottom" timestamp="1585822338388">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585822417634" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586080292759">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585822338388" />
-    <state width="1237" height="255" key="GridCell.Tab.0.center" timestamp="1585822338387">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586080292759">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
-    <state width="1237" height="255" key="GridCell.Tab.0.left" timestamp="1585822338387">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586080292758">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
-    <state width="1237" height="255" key="GridCell.Tab.0.right" timestamp="1585822338387">
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586080292758" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586080292759">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585822338387" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585819293617">
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585822431178">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585819293617" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585811023629">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585822431178" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586110479215">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585811023629" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586110479215" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -223,5 +230,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="350" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1585817270612" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1585902739101">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1585902739101" />
   </component>
 </project>
