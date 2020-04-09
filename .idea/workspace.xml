@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetPetById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetPetTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Yf2lPjkbXcOTj7XlTI2uwbTYpE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,64 +47,59 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.GetPetTest.getPetByStatus">
-    <configuration name="GetPetTest.createPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UpdatePetTest">
+    <configuration name="DeletePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="createPet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="DeletePetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.deletePet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="deletePet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="GetPetById" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.getPetByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPetByStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="getPetByStatus" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="GetPetByStatusTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.updatePet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdatePetByDataFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="updatePet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="UpdatePetByDataFormTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetTest.updatePetFormData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetTest" />
-      <option name="METHOD_NAME" value="updatePetFormData" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="UpdatePetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetPetTest.getPetByStatus" />
-        <item itemvalue="JUnit.GetPetTest.createPet" />
-        <item itemvalue="JUnit.GetPetTest.updatePet" />
-        <item itemvalue="JUnit.GetPetTest.deletePet" />
-        <item itemvalue="JUnit.GetPetTest.updatePetFormData" />
+        <item itemvalue="JUnit.UpdatePetTest" />
+        <item itemvalue="JUnit.UpdatePetByDataFormTest" />
+        <item itemvalue="JUnit.GetPetByStatusTest" />
+        <item itemvalue="JUnit.GetPetById" />
+        <item itemvalue="JUnit.DeletePetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,34 +195,34 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585822417634">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1586110609103">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585822417634" />
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586080292759">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586110609103" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586449024507">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
-    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586080292759">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586449024507">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
-    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586080292758">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586449024507">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586080292758" />
-    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586080292759">
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586449024507">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586080292759" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1585822431178">
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1586110614106">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1585822431178" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586110479215">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586110614106" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586442904669">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586110479215" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586442904669" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
