@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.is;
 
-public class GetPetById {
+public class GetPetByIdTest {
 
     long createdPetId;
 

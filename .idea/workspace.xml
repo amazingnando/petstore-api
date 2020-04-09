@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetPetById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +39,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.UpdatePetTest">
+  <component name="RunManager" selected="JUnit.GetPetByIdTest">
     <configuration name="DeletePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,10 +49,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetPetByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetById" />
+      <option name="MAIN_CLASS_NAME" value="GetPetByIdTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +87,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetPetByIdTest" />
         <item itemvalue="JUnit.UpdatePetTest" />
         <item itemvalue="JUnit.UpdatePetByDataFormTest" />
         <item itemvalue="JUnit.GetPetByStatusTest" />
-        <item itemvalue="JUnit.GetPetById" />
         <item itemvalue="JUnit.DeletePetTest" />
       </list>
     </recent_temporary>
@@ -170,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585822418559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="COVID-19 Each test in separate classes, added before and after">
+      <created>1586449113080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586449113080</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +179,8 @@
     <MESSAGE value="COVID-19 create, update, delete pet" />
     <MESSAGE value="COVID-19 update form data" />
     <MESSAGE value="COVID-19 code refactoring, add body verification" />
-    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 code refactoring, add body verification" />
+    <MESSAGE value="COVID-19 Each test in separate classes, added before and after" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 Each test in separate classes, added before and after" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
@@ -195,30 +195,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1586110609103">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1586449111569">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586110609103" />
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586449024507">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586449111569" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586449206522">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
-    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586449024507">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586449206522" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586449206521">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
-    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586449024507">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586449206521" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586449206521">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
-    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586449024507">
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586449206521" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586449206522">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586449024507" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1586110614106">
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586449206522" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1586449131330">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586110614106" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586449131330" />
     <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586442904669">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
