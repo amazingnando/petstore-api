@@ -1,30 +1,19 @@
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.ValidatableResponse;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.is;
+import org.junit.After;
 
 public class UpdatePetTest {
+
+    PetEndpoint petEndpoint = new PetEndpoint();
 
     long createdPetId;
 
     @Before
-    public void before2() {
-        RequestSpecBuilder spec = new RequestSpecBuilder();
-        spec.setBaseUri("https://petstore.swagger.io/v2");
-        spec.addHeader("Content-Type", "application/json");
-        RestAssured.requestSpecification = spec.build();
-    }
-
-    @Before
-    public void before1() {
+    public void createPet() {
         int id = 0;
         String body = "{\n" +
-                "  \"id\": \""+ id +"\",\n" +
+                "  \"id\": \"" + id + "\",\n" +
                 "  \"category\": {\n" +
                 "    \"id\": 0,\n" +
                 "    \"name\": \"string\"\n" +
@@ -41,26 +30,15 @@ public class UpdatePetTest {
                 "  ],\n" +
                 "  \"status\": \"available\"\n" +
                 "}";
-        ValidatableResponse response = given()
-                .log()
-                .all()
-                .body(body)
-                .when()
-                .post("/pet")
-                .then()
-                .log()
-                .all()
-                .statusCode(200);
-
+        ValidatableResponse response = petEndpoint.createPet(body);
         createdPetId = response.extract().path("id");
-        System.out.println(createdPetId);
     }
 
+
     @Test
-    public void updatePet () {
-        int id = 0;
+    public void updatePet() {
         String body = "{\n" +
-                "  \"id\": \""+ id +"\",\n" +
+                "  \"id\": \"" + createdPetId +"\",\n" +
                 "  \"category\": {\n" +
                 "    \"id\": 0,\n" +
                 "    \"name\": \"string\"\n" +
@@ -75,34 +53,13 @@ public class UpdatePetTest {
                 "      \"name\": \"string\"\n" +
                 "    }\n" +
                 "  ],\n" +
-                "  \"status\": \"sold\"\n" +
+                "  \"status\": \"available\"\n" +
                 "}";
-
-        given()
-                .log()
-                .all()
-                .body(body)
-                .when()
-                .put("/pet")
-                .then()
-                .log()
-                .all()
-                .body("name", is("Max"))
-                .statusCode(200);
+        ValidatableResponse response = petEndpoint.updatePet(body);
     }
 
     @After
-    public void deleteTest() {
-        given()
-                .log()
-                .all()
-                .when()
-                .delete("/pet/{id}", createdPetId)
-                .then()
-                .log()
-                .all()
-                .body("message", is(String.valueOf(createdPetId)))
-                .statusCode(200);
+    public void deletePet() {
+        petEndpoint.deletePet(createdPetId);
     }
-
 }
