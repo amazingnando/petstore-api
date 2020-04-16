@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tags.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetByIdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" afterDir="false" />
     </list>
@@ -48,7 +51,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.GetPetByStatusTest">
+  <component name="RunManager" selected="JUnit.UpdatePetByDataFormTest">
+    <configuration name="CreatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreatePetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeletePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,22 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UpdatePetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetPetByStatusTest" />
-        <item itemvalue="JUnit.UpdatePetTest" />
         <item itemvalue="JUnit.UpdatePetByDataFormTest" />
+        <item itemvalue="JUnit.GetPetByStatusTest" />
         <item itemvalue="JUnit.GetPetByIdTest" />
         <item itemvalue="JUnit.DeletePetTest" />
+        <item itemvalue="JUnit.CreatePetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586449226504</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="COVID-19 added PetEndpoint class, refactored tests">
+      <created>1586724828252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586724828252</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,7 +206,8 @@
     <MESSAGE value="COVID-19 update form data" />
     <MESSAGE value="COVID-19 code refactoring, add body verification" />
     <MESSAGE value="COVID-19 Each test in separate classes, added before and after" />
-    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 Each test in separate classes, added before and after" />
+    <MESSAGE value="COVID-19 added PetEndpoint class, refactored tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 added PetEndpoint class, refactored tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
@@ -211,38 +222,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="103" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1586723837200" />
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1587054469310">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587054469310" />
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583319619195">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.689@0.0.1280.689" timestamp="1583319619195" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1586449225023">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1586724827420">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586449225023" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1586724649682">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586724827420" />
+    <state width="1237" height="98" key="GridCell.Tab.0.bottom" timestamp="1587061511209">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586724649682" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1586724649681">
+    <state width="1237" height="98" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587061511209" />
+    <state width="1237" height="98" key="GridCell.Tab.0.center" timestamp="1587061511209">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586724649681" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1586724649681">
+    <state width="1237" height="98" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587061511209" />
+    <state width="1237" height="98" key="GridCell.Tab.0.left" timestamp="1587061511208">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586724649681" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1586724649682">
+    <state width="1237" height="98" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587061511208" />
+    <state width="1237" height="98" key="GridCell.Tab.0.right" timestamp="1587061511209">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586724649682" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1586449228232">
+    <state width="1237" height="98" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587061511209" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1586724834222">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586449228232" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586710672805">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586724834222" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1587032046329">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586710672805" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1587032046329" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

@@ -11,51 +11,16 @@ public class UpdatePetTest {
 
     @Before
     public void createPet() {
-        int id = 0;
-        String body = "{\n" +
-                "  \"id\": \"" + id + "\",\n" +
-                "  \"category\": {\n" +
-                "    \"id\": 0,\n" +
-                "    \"name\": \"string\"\n" +
-                "  },\n" +
-                "  \"name\": \"SpikeJr\",\n" +
-                "  \"photoUrls\": [\n" +
-                "    \"string\"\n" +
-                "  ],\n" +
-                "  \"tags\": [\n" +
-                "    {\n" +
-                "      \"id\": 0,\n" +
-                "      \"name\": \"string\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"status\": \"available\"\n" +
-                "}";
-        ValidatableResponse response = petEndpoint.createPet(body);
+        Pet pet = new Pet("0", "SpikeJr", "available");
+        ValidatableResponse response = petEndpoint.createPet(pet);
         createdPetId = response.extract().path("id");
     }
 
 
     @Test
     public void updatePet() {
-        String body = "{\n" +
-                "  \"id\": \"" + createdPetId +"\",\n" +
-                "  \"category\": {\n" +
-                "    \"id\": 0,\n" +
-                "    \"name\": \"string\"\n" +
-                "  },\n" +
-                "  \"name\": \"Max\",\n" +
-                "  \"photoUrls\": [\n" +
-                "    \"string\"\n" +
-                "  ],\n" +
-                "  \"tags\": [\n" +
-                "    {\n" +
-                "      \"id\": 0,\n" +
-                "      \"name\": \"string\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"status\": \"available\"\n" +
-                "}";
-        ValidatableResponse response = petEndpoint.updatePet(body);
+        Pet updatedPet = new Pet(String.valueOf(createdPetId), "Max", "sold");
+        ValidatableResponse response = petEndpoint.updatePet(updatedPet);
     }
 
     @After

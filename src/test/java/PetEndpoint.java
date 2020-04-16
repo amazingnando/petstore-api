@@ -24,9 +24,9 @@ public class PetEndpoint {
                 .all();
     }
 
-    public ValidatableResponse createPet(String body) {
+    public ValidatableResponse createPet(Pet pet) {
         return given()
-                .body(body)
+                .body(pet)
                 .when()
                 .post(CREATE_PET)
                 .then()
@@ -58,7 +58,7 @@ public class PetEndpoint {
                 .statusCode(200);
     }
 
-    public ValidatableResponse updatePet(String body) {
+    public ValidatableResponse updatePet(Pet body) {
         return given()
                 .body(body)
                 .when()
