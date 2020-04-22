@@ -11,7 +11,7 @@ public class UpdatePetTest {
 
     @Before
     public void createPet() {
-        Pet pet = new Pet("0", "SpikeJr", "available");
+        Pet pet = new Pet("0", "SpikeJr", Status.AVAILABLE);
         ValidatableResponse response = petEndpoint.createPet(pet);
         createdPetId = response.extract().path("id");
     }
@@ -19,7 +19,7 @@ public class UpdatePetTest {
 
     @Test
     public void updatePet() {
-        Pet updatedPet = new Pet(String.valueOf(createdPetId), "Max", "sold");
+        Pet updatedPet = new Pet(String.valueOf(createdPetId), "Max", Status.SOLD);
         ValidatableResponse response = petEndpoint.updatePet(updatedPet);
     }
 

@@ -11,7 +11,7 @@ public class UpdatePetByDataFormTest {
 
     @Before
     public void createPet() {
-        Pet pet = new Pet("0", "SpikeJr", "available");
+        Pet pet = new Pet("0", "SpikeJr", Status.AVAILABLE);
         ValidatableResponse response = petEndpoint.createPet(pet);
         createdPetId = response.extract().path("id");
     }
