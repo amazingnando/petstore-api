@@ -16,7 +16,7 @@ public class PetEndpoint {
 
     private final static String CREATE_PET = "/pet";
     private final static String GET_PET_BY_ID = "/pet/{id}";
-    private final static String GET_PET_BY_STATUS ="/pet/findByStatus?status{status}";
+    private final static String GET_PET_BY_STATUS = "/pet/findByStatus?status{status}";
     private final static String UPDATE_PET = "/pet";
     private final static String UPDATE_PET_BY_DATA_FORM = "/pet/{id}";
     private final static String DELETE_PET_BY_ID = "/pet/{id}";
@@ -48,15 +48,15 @@ public class PetEndpoint {
                 .when()
                 .get(GET_PET_BY_ID, petId)
                 .then()
-                .body( "id", anyOf(is(petId), is(Status.AVAILABLE)))
+                .body("id", anyOf(is(petId), is(Status.AVAILABLE)))
                 .statusCode(SC_OK);
     }
 
-    public ValidatableResponse getPetByStatus(String status) {
+    public ValidatableResponse getPetByStatus(Status status) {
         return given()
                 .when()
                 .param("status", status)
-                .get(GET_PET_BY_STATUS,"/pet/findByStatus")
+                .get(GET_PET_BY_STATUS, "/pet/findByStatus")
                 .then()
                 .body("status", everyItem(equalTo(status)))
                 .statusCode(SC_OK);
@@ -76,7 +76,7 @@ public class PetEndpoint {
         return given()
                 .contentType("application/x-www-form-urlencoded")
                 .param("name", "max")
-                .param("status", "sold")
+                .param("status", Status.SOLD)
                 .when()
                 .post(UPDATE_PET_BY_DATA_FORM, petId)
                 .then()
@@ -93,14 +93,17 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
-    public ValidatableResponse uploadImage (long petID) {
+    public ValidatableResponse uploadImage(long petID, String fileName) {
+
+        File file = new File(getClass().getClassLoader().getResource(fileName).getFile());
+
         return given()
                 .contentType("multipart/form-data")
-                .multiPart(new File("/Users/ferna/Desktop/SpikeJr.jpg"))
+                .multiPart(file)
                 .when()
                 .post(UPLOAD_IMAGE, petID)
                 .then()
-                .body("message", is("additionalMetadata: null\nFile uploaded to ./SpikeJr.jpg, 32820 bytes"))
+                .body("message", allOf(containsString("File uploaded"), containsString(file.getName())))
                 .statusCode(SC_OK);
     }
 }
