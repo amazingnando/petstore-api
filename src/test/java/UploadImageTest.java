@@ -1,14 +1,17 @@
 import io.restassured.response.ValidatableResponse;
+import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Steps;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
-import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
-import static org.apache.http.HttpStatus.SC_OK;
 
+@RunWith(SerenityRunner.class)
 public class UploadImageTest {
 
-    PetEndpoint petEndpoint = new PetEndpoint();
+    @Steps
+    private PetEndpoint petEndpoint;
 
     long createdPetId;
 

@@ -1,10 +1,11 @@
-import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import net.serenitybdd.rest.SerenityRest;
+import net.thucydides.core.annotations.Step;
 
 import java.io.File;
 
@@ -23,17 +24,18 @@ public class PetEndpoint {
     private final static String UPLOAD_IMAGE = "/pet/{id}/uploadImage";
 
     static {
-        RestAssured.filters(new RequestLoggingFilter(LogDetail.ALL));
-        RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL));
+        SerenityRest.filters(new RequestLoggingFilter(LogDetail.ALL));
+        SerenityRest.filters(new ResponseLoggingFilter(LogDetail.ALL));
     }
 
     private RequestSpecification given() {
-        return RestAssured
+        return SerenityRest
                 .given()
                 .baseUri("https://petstore.swagger.io/v2")
                 .contentType(ContentType.JSON);
     }
 
+    @Step
     public ValidatableResponse createPet(Pet pet) {
         return given()
                 .body(pet)
@@ -43,6 +45,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse getPetById(long petId) {
         return given()
                 .when()
@@ -52,6 +55,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse getPetByStatus(Status status) {
         return given()
                 .when()
@@ -62,6 +66,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse updatePet(Pet body) {
         return given()
                 .body(body)
@@ -72,6 +77,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse updatePetByDataForm(long petId) {
         return given()
                 .contentType("application/x-www-form-urlencoded")
@@ -84,6 +90,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse deletePet(long petId) {
         return given()
                 .when()
@@ -93,6 +100,7 @@ public class PetEndpoint {
                 .statusCode(SC_OK);
     }
 
+    @Step
     public ValidatableResponse uploadImage(long petID, String fileName) {
 
         File file = new File(getClass().getClassLoader().getResource(fileName).getFile());

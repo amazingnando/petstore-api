@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/doc_1MB.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jpg_800kb_4000x2667.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pdf_4kb.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/png_19kb_150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/png_3_mb_1920x1080.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetByIdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UploadImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UploadImageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +56,33 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.UploadImageTest">
+    <configuration name="GetPetByStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetPetByStatusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdatePetByDataFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UpdatePetByDataFormTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstore-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UpdatePetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UploadImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,41 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadImageTest.uploadDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadImageTest.uploadSmallImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UploadImageTest" />
-      <option name="METHOD_NAME" value="uploadDoc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadImageTest.uploadImageJpg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadImageTest" />
-      <option name="METHOD_NAME" value="uploadImageJpg" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadImageTest.uploadImagePng" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadImageTest" />
-      <option name="METHOD_NAME" value="uploadImagePng" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadImageTest.uploadPdf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadImageTest" />
-      <option name="METHOD_NAME" value="uploadPdf" />
+      <option name="METHOD_NAME" value="uploadSmallImage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +105,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UploadImageTest" />
-        <item itemvalue="JUnit.UploadImageTest.uploadDoc" />
-        <item itemvalue="JUnit.UploadImageTest.uploadPdf" />
-        <item itemvalue="JUnit.UploadImageTest.uploadImagePng" />
-        <item itemvalue="JUnit.UploadImageTest.uploadImageJpg" />
+        <item itemvalue="JUnit.UploadImageTest.uploadSmallImage" />
+        <item itemvalue="JUnit.UpdatePetTest" />
+        <item itemvalue="JUnit.UpdatePetByDataFormTest" />
+        <item itemvalue="JUnit.GetPetByStatusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587576886184</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="COVID-19 added more upload image tests, reformated code">
+      <created>1587670390575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587670390575</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,7 +235,8 @@
     <MESSAGE value="COVID-19 added PetEndpoint class, refactored tests" />
     <MESSAGE value="COVID-19 refactored json body, added classes pet, tags, category" />
     <MESSAGE value="COVID-19 created UploadImageTest, refactored log.all, added enum for statuses" />
-    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 created UploadImageTest, refactored log.all, added enum for statuses" />
+    <MESSAGE value="COVID-19 added more upload image tests, reformated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 added more upload image tests, reformated code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
@@ -259,34 +263,34 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587666340865" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1587670315286">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1587670389495">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587670315286" />
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom" timestamp="1587670315395">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587670389495" />
+    <state width="1237" height="158" key="GridCell.Tab.0.bottom" timestamp="1588272970468">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587670315395" />
-    <state width="1237" height="149" key="GridCell.Tab.0.center" timestamp="1587670315394">
+    <state width="1237" height="158" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1588272970468" />
+    <state width="1237" height="158" key="GridCell.Tab.0.center" timestamp="1588272970468">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587670315394" />
-    <state width="1237" height="149" key="GridCell.Tab.0.left" timestamp="1587670315394">
+    <state width="1237" height="158" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1588272970468" />
+    <state width="1237" height="158" key="GridCell.Tab.0.left" timestamp="1588272970467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587670315394" />
-    <state width="1237" height="149" key="GridCell.Tab.0.right" timestamp="1587670315394">
+    <state width="1237" height="158" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1588272970467" />
+    <state width="1237" height="158" key="GridCell.Tab.0.right" timestamp="1588272970468">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587670315394" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1587576890028">
+    <state width="1237" height="158" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1588272970468" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1587670394217">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587576890028" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1587628184094">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587670394217" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1588272036433">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1587628184094" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1588272036433" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
