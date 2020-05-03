@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UploadImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UploadImageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588273144423</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="COVID-19 added data provider to getbystatus and uploadimage tests">
+      <created>1588529261037</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588529261037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,13 +242,14 @@
     <MESSAGE value="COVID-19 created UploadImageTest, refactored log.all, added enum for statuses" />
     <MESSAGE value="COVID-19 added more upload image tests, reformated code" />
     <MESSAGE value="COVID-19 added serenity support" />
-    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 added serenity support" />
+    <MESSAGE value="COVID-19 added data provider to getbystatus and uploadimage tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="COVID-19 added data provider to getbystatus and uploadimage tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="7" key="#Notifications" timestamp="1583788927296">
+    <state x="233" y="7" key="#Notifications" timestamp="1588529290143">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="7" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1583788927296" />
+    <state x="233" y="7" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1588529290143" />
     <state x="233" y="7" key="#Project_Structure" timestamp="1587652576273">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -266,10 +270,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587666340865" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1588273143475">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1588529259740">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1588273143475" />
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1588529259740" />
     <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1588529185157">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -290,10 +294,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="422" y="59" key="RollbackChangesDialog/0.0.1280.689@0.0.1280.689" timestamp="1588520183478" />
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1588273151686">
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1588529264227">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1588273151686" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1588529264227" />
     <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1588515524514">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
