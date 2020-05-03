@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.Step;
 import java.io.File;
 
 import static org.apache.http.HttpStatus.SC_OK;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.Matchers.equalTo;
 
 public class PetEndpoint {
@@ -51,7 +51,7 @@ public class PetEndpoint {
                 .when()
                 .get(GET_PET_BY_ID, petId)
                 .then()
-                .body("id", anyOf(is(petId), is(Status.AVAILABLE)))
+                .body("id", is(petId))
                 .statusCode(SC_OK);
     }
 
@@ -59,8 +59,7 @@ public class PetEndpoint {
     public ValidatableResponse getPetByStatus(Status status) {
         return given()
                 .when()
-                .param("status", status)
-                .get(GET_PET_BY_STATUS, "/pet/findByStatus")
+                .get(GET_PET_BY_STATUS, status)
                 .then()
                 .body("status", everyItem(equalTo(status)))
                 .statusCode(SC_OK);
