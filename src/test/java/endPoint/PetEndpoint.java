@@ -1,9 +1,14 @@
+package endPoint;
+
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import model.Pet;
+import model.Status;
+import model.StoreOrder;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 
@@ -22,6 +27,10 @@ public class PetEndpoint {
     private final static String UPDATE_PET_BY_DATA_FORM = "/pet/{id}";
     private final static String DELETE_PET_BY_ID = "/pet/{id}";
     private final static String UPLOAD_IMAGE = "/pet/{id}/uploadImage";
+    private final static String CREATE_STORE_ORDER = "/store/order";
+    private final static String GET_STORE_ORDER_BY_ID = "/store/order/{id}";
+    private final static String DELETE_STORE_ORDER_BY_ID = "/store/order/{id}";
+    private final static String GET_STORE_INVENTORIES_BY_STATUS = "/store/inventory";
 
     static {
         SerenityRest.filters(new RequestLoggingFilter(LogDetail.ALL));
@@ -66,9 +75,9 @@ public class PetEndpoint {
     }
 
     @Step
-    public ValidatableResponse updatePet(Pet body) {
+    public ValidatableResponse updatePet(Pet pet) {
         return given()
-                .body(body)
+                .body(pet)
                 .when()
                 .put(UPDATE_PET)
                 .then()
@@ -111,6 +120,44 @@ public class PetEndpoint {
                 .post(UPLOAD_IMAGE, petID)
                 .then()
                 .body("message", allOf(containsString("File uploaded"), containsString(file.getName())))
+                .statusCode(SC_OK);
+    }
+    @Step
+    public ValidatableResponse createStoreOrder(StoreOrder order) {
+        return given()
+                .body(order)
+                .when()
+                .post(CREATE_STORE_ORDER)
+                .then()
+                .statusCode(SC_OK);
+    }
+
+    @Step
+    public ValidatableResponse getStoreOrder(int orderId) {
+        return given()
+                .when()
+                .get(GET_STORE_ORDER_BY_ID, orderId)
+                .then()
+                .body("id", is(orderId))
+                .statusCode(SC_OK);
+    }
+
+    @Step
+    public ValidatableResponse deleteStoreOrder(int orderId) {
+        return given()
+                .when()
+                .delete(DELETE_STORE_ORDER_BY_ID, orderId)
+                .then()
+                .body("message", is(String.valueOf(orderId)))
+                .statusCode(SC_OK);
+    }
+
+    @Step
+    public ValidatableResponse getStoreInventoriesByStatus() {
+        return given()
+                .when()
+                .get(GET_STORE_INVENTORIES_BY_STATUS)
+                .then()
                 .statusCode(SC_OK);
     }
 }

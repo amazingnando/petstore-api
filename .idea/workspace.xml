@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed1785e-f73c-4eee-9589-23e5c1d7c73e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/StoreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/StoreOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CreateStoreOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/DeleteStoreOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/GetStoreInventoriesByStatusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/GetStoreOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreatePetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeletePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DeletePetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetPetByIdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetPetByStatusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/endPoint/PetEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetByDataFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UpdatePetByDataFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UpdatePetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UpdatePetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UploadImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UploadImageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,54 +62,84 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ferna\IdeaProjects\petstore-api\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetPetByStatusTest">
-    <configuration name="CreatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetStoreInventoriesByStatusTest">
+    <configuration name="GetStoreInventoriesByStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreatePetTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GetStoreInventoriesByStatusTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetStoreOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetByIdTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GetStoreOrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetByStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdatePetByDataFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetByStatusTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UpdatePetByDataFormTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPetByStatusTest.testData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdatePetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetPetByStatusTest" />
-      <option name="METHOD_NAME" value="testData" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UpdatePetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UploadImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="petstore-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadImageTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UploadImageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetPetByStatusTest" />
-        <item itemvalue="JUnit.GetPetByStatusTest.testData" />
-        <item itemvalue="JUnit.CreatePetTest" />
+        <item itemvalue="JUnit.GetStoreInventoriesByStatusTest" />
         <item itemvalue="JUnit.UploadImageTest" />
-        <item itemvalue="JUnit.GetPetByIdTest" />
+        <item itemvalue="JUnit.UpdatePetTest" />
+        <item itemvalue="JUnit.UpdatePetByDataFormTest" />
+        <item itemvalue="JUnit.GetStoreOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,10 +310,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="103" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1586723837200" />
-    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1587054469310">
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1589905292335">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587054469310" />
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589905292335" />
     <state x="378" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583319619195">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -270,38 +322,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587666340865" />
-    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1588529259740">
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1588529536764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1588529259740" />
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1588529185157">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1588529536764" />
+    <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1589994248458">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1588529185157" />
-    <state width="1237" height="121" key="GridCell.Tab.0.center" timestamp="1588529185157">
+    <state width="1237" height="207" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589994248458" />
+    <state width="1237" height="207" key="GridCell.Tab.0.center" timestamp="1589994248458">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1588529185157" />
-    <state width="1237" height="121" key="GridCell.Tab.0.left" timestamp="1588529185157">
+    <state width="1237" height="207" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589994248458" />
+    <state width="1237" height="207" key="GridCell.Tab.0.left" timestamp="1589994248458">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1588529185157" />
-    <state width="1237" height="121" key="GridCell.Tab.0.right" timestamp="1588529185157">
+    <state width="1237" height="207" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589994248458" />
+    <state width="1237" height="207" key="GridCell.Tab.0.right" timestamp="1589994248458">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1588529185157" />
+    <state width="1237" height="207" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589994248458" />
     <state x="422" y="59" key="RollbackChangesDialog" timestamp="1588520183478">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="422" y="59" key="RollbackChangesDialog/0.0.1280.689@0.0.1280.689" timestamp="1588520183478" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1589992610040">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1589992610040" />
     <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1588529264227">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1588529264227" />
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1588515524514">
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1589992620612">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1588515524514" />
+    <state x="348" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1589992620612" />
     <state x="91" y="50" key="new project wizard" timestamp="1585498626764">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -318,16 +374,5 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1588517783827" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/GetPetByStatusTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

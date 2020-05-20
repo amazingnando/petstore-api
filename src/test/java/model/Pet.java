@@ -1,4 +1,20 @@
+package model;
+
+import lombok.Builder;
+import lombok.Getter;
+
+@Builder
+@Getter
 public class Pet {
+    private String id;
+    private Category category;
+    private String name;
+    private String[] photoUrls;
+    private Tags[] tags;
+    private Status status;
+}
+
+/*public class Pet {
     private String id;
     private Category category;
     private String name;
@@ -38,4 +54,5 @@ public class Pet {
     public Status getStatus() {
         return status;
     }
-}
+}*/
+
